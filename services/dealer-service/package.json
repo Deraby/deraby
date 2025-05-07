@@ -1,0 +1,11 @@
+{
+    "name": "dealer-service",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+    },
+    "dependencies": {
+        "@deraby/dealer": "workspace:*"
+    }
+}
